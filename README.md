@@ -14,10 +14,10 @@ Maze of Terror is a first-person horror escape game. You play as a player trappe
 
 ## Controls
 The controls will be via mouse and keyboard:
-- *Move Forward / Back / Left / Right* — W / S / A / D
-- *Look Around* — Mouse
-- *Sprint* — Left Shift (limited stamina)
-- *Pause* — Esc
+- **Move Forward / Back / Left / Right** — W / S / A / D
+- **Look Around** — Mouse
+- **Sprint** — Left Shift (limited stamina)
+- **Pause** — Esc
 
 ## Art Assets
 - Player: Camera-based first-person view
@@ -33,11 +33,11 @@ The controls will be via mouse and keyboard:
   - Pause menu
 
 ## Audio Assets
-Footstep Sounds: Player and enemy footsteps echoing in the maze
-Monster Sounds: Distant growls/breathing that gets louder when nearby
-Key Pickup Sound: A “ding” or “chime”
-Background Music: Ambient tension music
-Jump Scare Cue: Plays when caught
+- Footstep Sounds: Player and enemy footsteps echoing in the maze
+- Monster Sounds: Distant growls/breathing that gets louder when nearby
+- Key Pickup Sound: A “ding” or “chime”
+- Background Music: Ambient tension music
+- Jump Scare Cue: Plays when caught
 
 ## Game Flow
 Title screen:
