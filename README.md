@@ -66,3 +66,6 @@ Title screen:
 - Flashlight to navigate dimly lit maze
 - Enemy AI predict player moves
 - Multiple enemy types with unique chase behaviors
+
+## Gameplay Video
+https://drive.google.com/file/d/1gS75D6eENFUTzcfbuCtYiFyB-r7sa8dD/view?usp=sharing
