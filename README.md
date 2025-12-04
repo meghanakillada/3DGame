@@ -67,5 +67,6 @@ Title screen:
 - Enemy AI predict player moves
 - Multiple enemy types with unique chase behaviors
 
-## Gameplay Video
-https://drive.google.com/file/d/1gS75D6eENFUTzcfbuCtYiFyB-r7sa8dD/view?usp=sharing
+## Gameplay Videos
+- https://youtu.be/fDaatWYKRJ0
+- https://drive.google.com/file/d/1gS75D6eENFUTzcfbuCtYiFyB-r7sa8dD/view?usp=sharing
