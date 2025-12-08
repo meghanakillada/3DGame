@@ -10018,7 +10018,6 @@ GameObject:
   - component: {fileID: 1792076351}
   - component: {fileID: 1792076350}
   - component: {fileID: 1792076349}
-  - component: {fileID: 1792076357}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -10219,22 +10218,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1792076357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792076348}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 421f60620c1ab474583269c429feabbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chaseSpeed: 3.5
-  catchDistance: 2
-  agent: {fileID: 0}
-  player: {fileID: 0}
 --- !u!4 &1797754264 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
