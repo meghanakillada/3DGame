@@ -91,13 +91,22 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape)) // press escape to pause/unpause
+        {
+            TogglePause();
+        }
+    }
+
     public void TogglePause()
     {
         if (gameOver) return;
         paused = !paused;
         Time.timeScale = paused ? 0f : 1f;
-        UIManager.Instance.ShowPause(paused);
+        if (UIManager.Instance != null) UIManager.Instance.ShowPause(paused);
         Cursor.lockState = paused ? CursorLockMode.None : CursorLockMode.Locked;
+        Cursor.visible = paused;
     }
 
     public static void SafeQuit()

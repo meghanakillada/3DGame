@@ -15,7 +15,6 @@ public class UIManager : MonoBehaviour
 
     [Header("Menus")]
     public GameObject pausePanel;
-    public GameObject controlsPanel;
 
     void Awake()
     {
