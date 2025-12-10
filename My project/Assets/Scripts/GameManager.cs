@@ -50,7 +50,23 @@ public class GameManager : MonoBehaviour
         if (player != null && startSpawn != null)
         {
             Debug.Log("GameManager: Respawning player at start (keeping keys)");
-            player.ResetTo(startSpawn);
+            // CAUSING ERROR FOR ME
+            // player.ResetTo(startSpawn);
+
+            player.transform.position = startSpawn.position;
+            player.transform.rotation = startSpawn.rotation;
+
+            // If the player has velocity (Starter Assets), clear it:
+            var controller = player.GetComponent<CharacterController>();
+            if (controller != null)
+            {
+                // Teleport without friction issues
+                controller.enabled = false;
+                controller.transform.position = startSpawn.position;
+                controller.transform.rotation = startSpawn.rotation;
+                controller.enabled = true;
+            }
+
         }
     }
 
