@@ -26,6 +26,7 @@ public class EnemyAI : MonoBehaviour
     Transform player;
     int currentWaypointIndex;
     float waitTimer;
+    bool hasCaughtPlayer = false;
 
     void Awake()
     {
@@ -90,19 +91,23 @@ public class EnemyAI : MonoBehaviour
         // constantly chase the player's position
         agent.destination = player.position;
 
-        // close enough to catch?
+        // if player is close enough to catch
         if (distanceToPlayer <= catchDistance)
         {
-            Debug.Log($"Enemy caught player at distance {distanceToPlayer}");
-
-            if (GameManager.Instance != null)
+            if (!hasCaughtPlayer)
             {
-                GameManager.Instance.PlayerCaught();
+                hasCaughtPlayer = true;
+                Debug.Log($"Enemy caught player at distance {distanceToPlayer}");
+                if (GameManager.Instance != null)
+                {
+                    GameManager.Instance.PlayerCaught();
+                }
             }
-            else
-            {
-                Debug.LogError("EnemyAI: GameManager.Instance is NULL");
-            }
+        return;
+        }
+        else
+        {
+            hasCaughtPlayer = false; // reset catch status if player moves away
         }
     }
 }

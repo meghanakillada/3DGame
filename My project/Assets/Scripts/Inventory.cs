@@ -12,8 +12,8 @@ public class Inventory : MonoBehaviour
     {
         if (keys.Add(c))
         {
-            //UIManager.Instance.SetKeyIcon(c, true);
-            //AudioManager.Instance.PlayKeyPickup();
+            UIManager.Instance.SetKeyIcon(c, true);
+            AudioManager.Instance.PlayKeyPickup();
         }
     }
 }
