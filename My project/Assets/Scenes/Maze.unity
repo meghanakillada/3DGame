@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.5748165, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -143,6 +143,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (60)
@@ -230,6 +234,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (45)
@@ -313,6 +321,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100002, guid: 938246be576de8744815e03645bf7969, type: 3}
+    - target: {fileID: 4799817117426350627, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5682185990287564698, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -412,6 +424,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (20)
@@ -633,6 +649,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -680,6 +700,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (12)
@@ -823,6 +847,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -904,6 +932,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 92b9d54ec56ae4c4d834cf4a6b73ba86, type: 3}
   m_PrefabInstance: {fileID: 161227245}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &162972489 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6419849203816261115, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+  m_PrefabInstance: {fileID: 1945144889}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &162972491 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+  m_PrefabInstance: {fileID: 1945144889}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &162972492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162972489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 162972491}
+  minFlickerInterval: 31
+  maxFlickerInterval: 34
+  flickerDuration: 0.1
+  flickerCount: 2
 --- !u!1001 &164725630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -924,6 +979,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (46)
@@ -1011,6 +1070,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (2)
@@ -1098,6 +1161,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (22)
@@ -1241,6 +1308,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -1328,6 +1399,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -1359,6 +1434,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (27)
@@ -1450,6 +1529,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (29)
@@ -1552,6 +1635,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &233154438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6419849203816261115, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+  m_PrefabInstance: {fileID: 1945152346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &233154440 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+  m_PrefabInstance: {fileID: 1945152346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &233154441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233154438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 233154440}
+  minFlickerInterval: 62
+  maxFlickerInterval: 151
+  flickerDuration: 0.1
+  flickerCount: 2
 --- !u!1 &244494453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,6 +1739,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244494453}
   m_CullTransparentMesh: 1
+--- !u!1 &247028760 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1184908386593945503, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+  m_PrefabInstance: {fileID: 662097324}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &247028762 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+  m_PrefabInstance: {fileID: 662097324}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &247028763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247028760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 247028762}
+  minFlickerInterval: 43
+  maxFlickerInterval: 63
+  flickerDuration: 0.1
+  flickerCount: 2
 --- !u!1 &315393091
 GameObject:
   m_ObjectHideFlags: 0
@@ -1711,6 +1848,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (51)
@@ -1798,6 +1939,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (52)
@@ -1941,6 +2086,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -1972,6 +2121,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (31)
@@ -2063,6 +2216,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (18)
@@ -2150,6 +2307,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (42)
@@ -2210,7 +2371,10 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 4607289799605288978, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6572297448575387943, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1272986240}
   m_SourcePrefab: {fileID: 100100000, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
 --- !u!4 &398415712 stripped
 Transform:
@@ -2269,6 +2433,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2312,6 +2480,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100002, guid: 938246be576de8744815e03645bf7969, type: 3}
+    - target: {fileID: 4799817117426350627, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5682185990287564698, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2411,6 +2583,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (28)
@@ -2677,6 +2853,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100002, guid: 938246be576de8744815e03645bf7969, type: 3}
+    - target: {fileID: 4799817117426350627, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5682185990287564698, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2776,6 +2956,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (35)
@@ -2836,7 +3020,10 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 4607289799605288978, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6572297448575387943, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1994892828}
   m_SourcePrefab: {fileID: 100100000, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
 --- !u!4 &502527385 stripped
 Transform:
@@ -2859,6 +3046,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100002, guid: 938246be576de8744815e03645bf7969, type: 3}
+    - target: {fileID: 4799817117426350627, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5682185990287564698, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2958,6 +3149,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (36)
@@ -3018,13 +3213,38 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 4607289799605288978, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6572297448575387943, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1863650269}
   m_SourcePrefab: {fileID: 100100000, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
 --- !u!4 &504203450 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8159951867032352835, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
   m_PrefabInstance: {fileID: 504203449}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &505246392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7098449521137583926, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+  m_PrefabInstance: {fileID: 1547703605}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &505246395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505246392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 0}
+  minFlickerInterval: 52
+  maxFlickerInterval: 86
+  flickerDuration: 0.1
+  flickerCount: 2
 --- !u!1 &509177506
 GameObject:
   m_ObjectHideFlags: 0
@@ -3062,7 +3282,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -30}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &509177508
 MonoBehaviour:
@@ -3086,7 +3306,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.7882353, g: 0.7882353, b: 0.7882353, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -3133,14 +3353,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.54901963, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 9a32a6cc2cb803443983d45d4a513506, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3234,6 +3454,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -3326,6 +3550,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -3337,6 +3565,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1638809618536804545, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
   m_PrefabInstance: {fileID: 548318727}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &562211955 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7098449521137583926, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+  m_PrefabInstance: {fileID: 2030760656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &562211957 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+  m_PrefabInstance: {fileID: 2030760656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &562211958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562211955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 562211957}
+  minFlickerInterval: 3
+  maxFlickerInterval: 38
+  flickerDuration: 0.1
+  flickerCount: 2
 --- !u!1001 &563522802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3413,6 +3668,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -3424,37 +3683,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1638809618536804545, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
   m_PrefabInstance: {fileID: 563522802}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &572441540
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5958832037537720511, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
-  m_PrefabInstance: {fileID: 3690592268684622505}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 572441541}
-  m_Layer: 0
-  m_Name: Empty
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &572441541
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3443164162451207249, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
-  m_PrefabInstance: {fileID: 3690592268684622505}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572441540}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 755309592}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &580855065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
@@ -3517,7 +3745,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3634,6 +3862,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3686,6 +3918,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (23)
@@ -3753,75 +3989,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8159951867032352835, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
   m_PrefabInstance: {fileID: 614525514}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &624418103
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3178276460261627429, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
-  m_PrefabInstance: {fileID: 1396684524111660161}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 624418106}
-  - component: {fileID: 624418105}
-  - component: {fileID: 624418104}
-  m_Layer: 0
-  m_Name: KeyCard_Green
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &624418104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6687454492376965085, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
-  m_PrefabInstance: {fileID: 1396684524111660161}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624418103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b52460e25c97c47dd9b198d7ed1e1ab7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: 2
---- !u!135 &624418105
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 902656075291927709, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
-  m_PrefabInstance: {fileID: 1396684524111660161}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624418103}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 2
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &624418106
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9106173795930663751, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
-  m_PrefabInstance: {fileID: 1396684524111660161}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624418103}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.4, y: -0.56, z: 4.1}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1533457875}
-  - {fileID: 807701975}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &626105962
 GameObject:
   m_ObjectHideFlags: 0
@@ -3917,6 +4084,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (47)
@@ -4060,6 +4231,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -4147,6 +4322,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -4210,6 +4389,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4257,6 +4440,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (21)
@@ -4321,7 +4508,10 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 4607289799605288978, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6572297448575387943, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1088199233}
   m_SourcePrefab: {fileID: 100100000, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
 --- !u!4 &647786567 stripped
 Transform:
@@ -4380,6 +4570,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4400,7 +4594,10 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 299489815652817838, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1184908386593945503, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 247028763}
   m_SourcePrefab: {fileID: 100100000, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
 --- !u!4 &662097325 stripped
 Transform:
@@ -4475,6 +4672,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6979408891878761504, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
@@ -4506,6 +4707,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (5)
@@ -4589,6 +4794,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100002, guid: 938246be576de8744815e03645bf7969, type: 3}
+    - target: {fileID: 4799817117426350627, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5682185990287564698, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4720,6 +4929,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4824,6 +5037,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (61)
@@ -4946,6 +5163,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (38)
@@ -5013,75 +5234,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8159951867032352835, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
   m_PrefabInstance: {fileID: 740463186}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &755309589
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4981240517883533807, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
-  m_PrefabInstance: {fileID: 3690592268684622505}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 755309592}
-  - component: {fileID: 755309591}
-  - component: {fileID: 755309590}
-  m_Layer: 0
-  m_Name: KeyCard_Red
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &755309590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3888284538641731607, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
-  m_PrefabInstance: {fileID: 3690592268684622505}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755309589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b52460e25c97c47dd9b198d7ed1e1ab7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: 0
---- !u!135 &755309591
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7331168227030330199, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
-  m_PrefabInstance: {fileID: 3690592268684622505}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755309589}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 2
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &755309592
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1685694881100506253, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
-  m_PrefabInstance: {fileID: 3690592268684622505}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755309589}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1, y: -0.56, z: -9.8}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 572441541}
-  - {fileID: 910209768}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &758980622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5133,6 +5285,10 @@ PrefabInstance:
     - target: {fileID: 1184908386593945503, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5298,92 +5454,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807022689}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &807701974
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 74776811621800763, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
-  m_PrefabInstance: {fileID: 1396684524111660161}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 807701975}
-  - component: {fileID: 807701977}
-  - component: {fileID: 807701976}
-  m_Layer: 0
-  m_Name: Plane
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &807701975
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3082814091498197641, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
-  m_PrefabInstance: {fileID: 1396684524111660161}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807701974}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: -0.49999997, z: 0.5, w: 0.50000006}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 29.563976}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 624418106}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &807701976
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8610457282485356358, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
-  m_PrefabInstance: {fileID: 1396684524111660161}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807701974}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -4973734387028869240, guid: 1c1f27209654d48b8a7f4b52d397bda3, type: 3}
-  - {fileID: 2100000, guid: 7547866dca445404dad42d3cb82dacac, type: 2}
-  - {fileID: 8039567086963658369, guid: 1c1f27209654d48b8a7f4b52d397bda3, type: 3}
-  - {fileID: 1788269377728665300, guid: 1c1f27209654d48b8a7f4b52d397bda3, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &807701977
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2402606141018064801, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
-  m_PrefabInstance: {fileID: 1396684524111660161}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807701974}
-  m_Mesh: {fileID: -462981019419857548, guid: 1c1f27209654d48b8a7f4b52d397bda3, type: 3}
 --- !u!1001 &846442764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5460,6 +5530,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -5522,6 +5596,10 @@ PrefabInstance:
     - target: {fileID: 1184908386593945503, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5674,6 +5752,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -5705,6 +5787,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (53)
@@ -5772,92 +5858,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8159951867032352835, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
   m_PrefabInstance: {fileID: 898063540}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &910209767
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7508278342189913329, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
-  m_PrefabInstance: {fileID: 3690592268684622505}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 910209768}
-  - component: {fileID: 910209770}
-  - component: {fileID: 910209769}
-  m_Layer: 0
-  m_Name: Plane
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &910209768
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4896311470596021571, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
-  m_PrefabInstance: {fileID: 3690592268684622505}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910209767}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: -0.49999997, z: 0.5, w: 0.50000006}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 29.563976}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 755309592}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &910209769
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2181174905694668940, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
-  m_PrefabInstance: {fileID: 3690592268684622505}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910209767}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -4973734387028869240, guid: 1c1f27209654d48b8a7f4b52d397bda3, type: 3}
-  - {fileID: 2100000, guid: 9b059142f1a0c494789557204699e276, type: 2}
-  - {fileID: 8039567086963658369, guid: 1c1f27209654d48b8a7f4b52d397bda3, type: 3}
-  - {fileID: 1788269377728665300, guid: 1c1f27209654d48b8a7f4b52d397bda3, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &910209770
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5218739360137447531, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
-  m_PrefabInstance: {fileID: 3690592268684622505}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910209767}
-  m_Mesh: {fileID: -462981019419857548, guid: 1c1f27209654d48b8a7f4b52d397bda3, type: 3}
 --- !u!1001 &925277027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5878,6 +5878,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (39)
@@ -6065,6 +6069,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6160,11 +6168,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      propertyPath: m_Intensity
+      value: 0.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6979408891878761504, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6419849203816261115, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2136376547}
   m_SourcePrefab: {fileID: 100100000, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
 --- !u!4 &965268761 stripped
 Transform:
@@ -6387,6 +6402,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -6524,6 +6543,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (7)
@@ -6611,6 +6634,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (33)
@@ -6719,7 +6746,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 30}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1059572599
 MonoBehaviour:
@@ -6743,7 +6770,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.7877358, g: 0.7877358, b: 0.7877358, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -6790,14 +6817,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.54901963, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 9a32a6cc2cb803443983d45d4a513506, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6835,6 +6862,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (30)
@@ -6954,6 +6985,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -7057,6 +7092,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -7136,6 +7175,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6979408891878761504, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
@@ -7147,6 +7190,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8159907647561070695, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
   m_PrefabInstance: {fileID: 1086693482}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1088199230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6572297448575387943, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+  m_PrefabInstance: {fileID: 647786566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &1088199232 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+  m_PrefabInstance: {fileID: 647786566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1088199233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088199230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 1088199232}
+  minFlickerInterval: 12
+  maxFlickerInterval: 110
+  flickerDuration: 0.1
+  flickerCount: 2
 --- !u!1001 &1124190474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7215,6 +7285,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6979408891878761504, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
@@ -7246,6 +7320,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (1)
@@ -7519,6 +7597,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (4)
@@ -7638,6 +7720,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -7685,6 +7771,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (19)
@@ -7851,6 +7941,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (43)
@@ -8006,6 +8100,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (8)
@@ -8073,6 +8171,136 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8159951867032352835, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
   m_PrefabInstance: {fileID: 1212776328}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1213499236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1213499237}
+  - component: {fileID: 1213499238}
+  - component: {fileID: 1213499239}
+  - component: {fileID: 1213499240}
+  m_Layer: 8
+  m_Name: Spot Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1213499237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213499236}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 580855065}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!108 &1213499238
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213499236}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 50
+  m_SpotAngle: 44
+  m_InnerSpotAngle: 2.4
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &1213499239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213499236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 1213499238}
+  minFlickerInterval: 1
+  maxFlickerInterval: 180
+  flickerDuration: 30
+  flickerCount: 1
+--- !u!114 &1213499240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213499236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 1213499238}
+  minFlickerInterval: 1
+  maxFlickerInterval: 45
+  flickerDuration: 0.1
+  flickerCount: 2
 --- !u!1 &1222401768
 GameObject:
   m_ObjectHideFlags: 0
@@ -8161,6 +8389,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (32)
@@ -8248,6 +8480,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100002, guid: 938246be576de8744815e03645bf7969, type: 3}
+    - target: {fileID: 4799817117426350627, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5682185990287564698, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -8347,6 +8583,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (24)
@@ -8414,6 +8654,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8159951867032352835, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
   m_PrefabInstance: {fileID: 1239026913}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1272986237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6572297448575387943, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+  m_PrefabInstance: {fileID: 398415711}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &1272986239 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+  m_PrefabInstance: {fileID: 398415711}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1272986240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272986237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 1272986239}
+  minFlickerInterval: 23
+  maxFlickerInterval: 151
+  flickerDuration: 0.1
+  flickerCount: 2
 --- !u!1001 &1280583800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8434,6 +8701,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (25)
@@ -8589,6 +8860,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (56)
@@ -8676,6 +8951,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (27)
@@ -8819,6 +9098,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -8850,6 +9133,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (17)
@@ -9099,6 +9386,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -9130,6 +9421,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (59)
@@ -9311,6 +9606,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -9358,6 +9657,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (58)
@@ -9445,6 +9748,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (14)
@@ -9536,6 +9843,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (6)
@@ -9679,6 +9990,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -9758,6 +10073,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6979408891878761504, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
@@ -9789,6 +10108,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (44)
@@ -9876,6 +10199,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (16)
@@ -9943,37 +10270,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8159951867032352835, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
   m_PrefabInstance: {fileID: 1523111925}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1533457874
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4290079316990846837, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
-  m_PrefabInstance: {fileID: 1396684524111660161}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1533457875}
-  m_Layer: 0
-  m_Name: Empty
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1533457875
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5112704683082267547, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
-  m_PrefabInstance: {fileID: 1396684524111660161}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533457874}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 624418106}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1543430527
 GameObject:
   m_ObjectHideFlags: 0
@@ -10081,11 +10377,18 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0.9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7098449521137583926, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 505246395}
   m_SourcePrefab: {fileID: 100100000, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
 --- !u!4 &1547703606 stripped
 Transform:
@@ -10266,6 +10569,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6979408891878761504, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
@@ -10297,6 +10604,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (54)
@@ -10384,6 +10695,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (15)
@@ -10451,6 +10766,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8159951867032352835, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
   m_PrefabInstance: {fileID: 1601344349}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1604409636 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6572297448575387943, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+  m_PrefabInstance: {fileID: 1883906375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &1604409638 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+  m_PrefabInstance: {fileID: 1883906375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1604409639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604409636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 1604409638}
+  minFlickerInterval: 72
+  maxFlickerInterval: 215
+  flickerDuration: 0.1
+  flickerCount: 2
 --- !u!1 &1608792129
 GameObject:
   m_ObjectHideFlags: 0
@@ -10511,6 +10853,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100002, guid: 938246be576de8744815e03645bf7969, type: 3}
+    - target: {fileID: 4799817117426350627, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5682185990287564698, guid: bf3e16a69d7cdb04ca430d51a4076ad3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -10786,8 +11132,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Lives: 3'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d11b2cde009d604a8faccbe666a5cef, type: 2}
+  m_sharedMaterial: {fileID: -4451445643155735465, guid: 0d11b2cde009d604a8faccbe666a5cef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10811,8 +11157,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10912,6 +11258,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (26)
@@ -11003,6 +11353,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal
@@ -11082,6 +11436,7 @@ GameObject:
   - component: {fileID: 1728604376}
   - component: {fileID: 1728604375}
   - component: {fileID: 1728604374}
+  - component: {fileID: 1728604377}
   m_Layer: 0
   m_Name: DoorBlocker_Blue
   m_TagString: Untagged
@@ -11176,6 +11531,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728604372}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1728604377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728604372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba8f7cda08be4c6890c6008962ff3d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1744364898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11251,6 +11618,10 @@ PrefabInstance:
     - target: {fileID: 7098449521137583926, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -11339,6 +11710,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -11370,6 +11745,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (13)
@@ -11457,6 +11836,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (3)
@@ -11779,15 +12162,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Resume
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d11b2cde009d604a8faccbe666a5cef, type: 2}
+  m_sharedMaterial: {fileID: -4451445643155735465, guid: 0d11b2cde009d604a8faccbe666a5cef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -11804,8 +12187,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11927,6 +12310,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6979408891878761504, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
@@ -12006,6 +12393,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6979408891878761504, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
@@ -12068,6 +12459,10 @@ PrefabInstance:
     - target: {fileID: 1184908386593945503, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12148,6 +12543,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2247959695439264728, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6430209103561919151, guid: 21ac81828f0474741a2ce3ff4050b36c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12195,6 +12594,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (41)
@@ -12262,6 +12665,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8159951867032352835, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
   m_PrefabInstance: {fileID: 1849627598}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1863650266 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6572297448575387943, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+  m_PrefabInstance: {fileID: 504203449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &1863650268 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+  m_PrefabInstance: {fileID: 504203449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1863650269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863650266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 1863650268}
+  minFlickerInterval: 60
+  maxFlickerInterval: 73
+  flickerDuration: 0.1
+  flickerCount: 2
 --- !u!1001 &1883906375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12282,6 +12712,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (57)
@@ -12342,7 +12776,10 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 4607289799605288978, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6572297448575387943, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1604409639}
   m_SourcePrefab: {fileID: 100100000, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
 --- !u!4 &1883906376 stripped
 Transform:
@@ -12430,6 +12867,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -12461,6 +12902,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (50)
@@ -12548,6 +12993,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (9)
@@ -12635,6 +13084,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (26)
@@ -12770,11 +13223,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      propertyPath: m_Intensity
+      value: 0.7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6979408891878761504, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6419849203816261115, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 162972492}
   m_SourcePrefab: {fileID: 100100000, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
 --- !u!4 &1945144890 stripped
 Transform:
@@ -12849,11 +13309,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      propertyPath: m_Intensity
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6979408891878761504, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6419849203816261115, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 233154441}
   m_SourcePrefab: {fileID: 100100000, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
 --- !u!4 &1945152347 stripped
 Transform:
@@ -12928,6 +13395,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6979408891878761504, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
@@ -12959,6 +13430,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (48)
@@ -13026,6 +13501,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8159951867032352835, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
   m_PrefabInstance: {fileID: 1988574271}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1994892825 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6572297448575387943, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+  m_PrefabInstance: {fileID: 502527384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &1994892827 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+  m_PrefabInstance: {fileID: 502527384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1994892828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994892825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 1994892827}
+  minFlickerInterval: 6
+  maxFlickerInterval: 47
+  flickerDuration: 0.1
+  flickerCount: 2
 --- !u!1001 &2022222528
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13046,6 +13548,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (55)
@@ -13133,6 +13639,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (37)
@@ -13276,11 +13786,18 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7098449521137583926, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 562211958}
   m_SourcePrefab: {fileID: 100100000, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
 --- !u!4 &2030760657 stripped
 Transform:
@@ -13460,6 +13977,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (10)
@@ -13547,6 +14068,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (34)
@@ -13690,6 +14215,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8798230215604429958, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3870518926202517369, guid: 7920bd4de3c142a488a1bf622ef6403e, type: 3}
@@ -13721,6 +14250,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (49)
@@ -13847,15 +14380,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0d11b2cde009d604a8faccbe666a5cef, type: 2}
+  m_sharedMaterial: {fileID: -4451445643155735465, guid: 0d11b2cde009d604a8faccbe666a5cef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -13872,8 +14405,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13942,6 +14475,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (40)
@@ -14029,6 +14566,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d3216e0b76a0e426d89ec4f0f98076ce, type: 2}
+    - target: {fileID: 7356922878227395700, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8005692902697971204, guid: edb5b2873fe798f4c9e4969d6b0da1d9, type: 3}
       propertyPath: m_Name
       value: SciFiCorridorsNormal (11)
@@ -14127,6 +14668,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1608792130}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2136376544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6419849203816261115, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+  m_PrefabInstance: {fileID: 965268760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &2136376546 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 8798643167162271954, guid: 6e33c921d18d69044827cb237f62a25a, type: 3}
+  m_PrefabInstance: {fileID: 965268760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2136376547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136376544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edace6f3667b5384ea16acfb53c1dd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 2136376546}
+  minFlickerInterval: 6
+  maxFlickerInterval: 50
+  flickerDuration: 0.1
+  flickerCount: 2
 --- !u!1001 &658111465978287204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14277,55 +14845,67 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3178276460261627429, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
+    - target: {fileID: 1279619118064945184, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
+      propertyPath: color
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996064097180975576, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_Name
       value: KeyCard_Green
       objectReference: {fileID: 0}
-    - target: {fileID: 9106173795930663751, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.4
       objectReference: {fileID: 0}
-    - target: {fileID: 9106173795930663751, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.56
       objectReference: {fileID: 0}
-    - target: {fileID: 9106173795930663751, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 4.1
       objectReference: {fileID: 0}
-    - target: {fileID: 9106173795930663751, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 9106173795930663751, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9106173795930663751, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 9106173795930663751, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9106173795930663751, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9106173795930663751, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 9106173795930663751, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4211709956354756795, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7547866dca445404dad42d3cb82dacac, type: 2}
+    - target: {fileID: 6996064097180975576, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
+      propertyPath: m_Name
+      value: KeyCard_Green
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6bab5975813854533a4dc8427138f38e, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
 --- !u!1001 &3690592268684622505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14334,47 +14914,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1685694881100506253, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
+    - target: {fileID: 1279619118064945184, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
+      propertyPath: color
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1685694881100506253, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.56
       objectReference: {fileID: 0}
-    - target: {fileID: 1685694881100506253, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalPosition.z
       value: -9.8
       objectReference: {fileID: 0}
-    - target: {fileID: 1685694881100506253, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1685694881100506253, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1685694881100506253, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1685694881100506253, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1685694881100506253, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1685694881100506253, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 1685694881100506253, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
+    - target: {fileID: 3698337588145142970, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4981240517883533807, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
+    - target: {fileID: 4211709956354756795, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b059142f1a0c494789557204699e276, type: 2}
+    - target: {fileID: 6996064097180975576, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
       propertyPath: m_Name
       value: KeyCard_Red
       objectReference: {fileID: 0}
@@ -14382,7 +14970,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ff491217f7e1a414e86c3c219b771b64, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 651fa071e91224d99a5ecca36ddaffc3, type: 3}
 --- !u!1001 &4898394785146817014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14461,7 +15049,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1213499237}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       insertIndex: -1

@@ -13,8 +13,7 @@ public class Quit : MonoBehaviour
     // Update is called once per frame
     public void QuitGame()
     {
-        Application.Quit();
-        Debug.Log("Game is exiting."); // This will only show in the editor.
+        GameManager.SafeQuit();
     }
     void Update()
     {
